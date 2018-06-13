@@ -22,6 +22,7 @@ public class DecimalToOctal
 		int num = sc.nextInt();
 		String octalValue = decimalToOctal(num);
 		System.out.println("Octal Value of "+num+" is "+octalValue);
+		sc.close();
 
 	}
 
