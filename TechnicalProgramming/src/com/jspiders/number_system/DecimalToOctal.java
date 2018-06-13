@@ -2,7 +2,7 @@ package com.jspiders.number_system;
 
 import java.util.Scanner;
 
-public class DemoForDecimalToOctal 
+public class DecimalToOctal 
 {
 	public static String decimalToOctal(int num)
 	{

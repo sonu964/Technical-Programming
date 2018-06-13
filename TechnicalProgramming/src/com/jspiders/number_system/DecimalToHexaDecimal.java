@@ -2,7 +2,7 @@ package com.jspiders.number_system;
 
 import java.util.Scanner;
 
-public class DemoForDecimalToHexa 
+public class DecimalToHexaDecimal 
 {
 	public static String decimalToHexa(int num)
 	{
@@ -15,17 +15,17 @@ public class DemoForDecimalToHexa
 			case 10: res ='A'+res;
 					break;
 			case 11: res ='B'+res;
-			break;
+					break;
 			case 12: res ='C'+res;
-			break;
+					break;
 			case 13: res ='D'+res;
-			break;
+					break;
 			case 14: res ='E'+res;
-			break;
+					break;
 			case 15: res ='F'+res;
-			break;
+					break;
 			default:res = rem+res;
-			
+
 			}
 			num = num/16;
 		}
@@ -38,7 +38,9 @@ public class DemoForDecimalToHexa
 		System.out.println("Enter the number");
 		int num = sc.nextInt();
 		String hexaValue = decimalToHexa(num);
-		System.out.println("Hexa value is : "+ hexaValue);
+		System.out.println("Hexa value "+num+" is : "+ hexaValue);
+		
+		sc.close();
 
 	}
 

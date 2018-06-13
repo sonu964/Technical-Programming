@@ -2,12 +2,12 @@ package com.jspiders.number_system;
 
 import java.util.Scanner;
 
-public class DemoForDecimalToBinary
+public class DecimalToBinary
 {
 	
 	public static String decimalToBinary(int num)
 	{
-		// 1st Declare a String variable to concatenate remainder
+		// 1st Declare a empty String variable to concatenate remainder
 		String rem="";
 		// 2nd take while loop
 		while(num>0)
@@ -28,7 +28,8 @@ public class DemoForDecimalToBinary
 		System.out.println("Enter the number");
 		int num = sc.nextInt();
 		String YourBinaryIs = decimalToBinary(num);
-		System.out.println(YourBinaryIs+" :");
+		System.out.println("Binary of " +num+" is : "+YourBinaryIs);
+		sc.close();
 		
 	}
 
