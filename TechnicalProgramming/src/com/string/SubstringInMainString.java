@@ -27,7 +27,7 @@ public class SubstringInMainString {
 		
 		*/
 		
-		for (int i = 0; i < ch1.length; i++) {
+	/*	for (int i = 0; i < ch1.length; i++) {
 			
 			for (int k = 0; k < ch2.length; k++) {
 				
@@ -40,11 +40,8 @@ public class SubstringInMainString {
 				
 			}
 			
-		}
+		}*/
 		
-		
-		
-			
 		
 	}
 

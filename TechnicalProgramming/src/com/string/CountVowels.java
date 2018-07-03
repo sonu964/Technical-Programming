@@ -10,6 +10,8 @@ public class CountVowels {
 		String s1 = sc.nextLine();
 		int res = count(s1);
 		System.out.println(res);
+		
+		sc.close();
 
 	}
 	
@@ -23,6 +25,7 @@ public class CountVowels {
 			switch(c){
 			
 			case 'a' :
+			case 'A' :
 			case 'e' :
 			case 'i' :
 			case 'o' :

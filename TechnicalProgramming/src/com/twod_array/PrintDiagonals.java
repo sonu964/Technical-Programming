@@ -25,8 +25,8 @@ public class PrintDiagonals {
 			
 			while(i>= 0){
 				System.out.println("1st while loop started..........");
-				//System.out.println(ar[i][j]);
-				sum = sum + ar[i][j];
+				System.out.println(ar[i][j]);
+				//sum = sum + ar[i][j];
 				
 				i = i-1;
 				j= j+1;

@@ -61,7 +61,7 @@ public class Anagarm
 		return res;
 	}
 	
-	public static boolean compare(String s1, String s2)//4th step, we camparing to character for the same position so there is one for loop
+	public static boolean compare(String s1, String s2)//4th step, we comparing to character for the same position so there is one for loop
 	{
 		char c1[] = s1.toCharArray();
 
@@ -131,5 +131,6 @@ public class Anagarm
 		{
 			System.out.println("String are not anagram");
 		}
+		sc.close();
 	}
 }

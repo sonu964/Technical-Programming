@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Demo {
 	
-	static void swap(String str){
+/*	static void swap(String str){
 		
 		String first = "";
 		String last = "";
@@ -44,16 +44,25 @@ public class Demo {
 		}
 		System.out.println(first);
 		
-	}
+	}*/
 
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter your string");
 		
-		String str = sc.nextLine();
+	/*	String str = sc.nextLine();
 		swap(str);
-
+*/
+		char ch = 'b';
+		switch(ch){
+		
+		case 'a':
+		case 'b':
+		case 'c': System.out.println("hi");
+		default:System.out.println("hello");
+		}
+		
 	}
 
 }

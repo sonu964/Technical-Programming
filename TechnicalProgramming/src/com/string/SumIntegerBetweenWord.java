@@ -34,6 +34,8 @@ public class SumIntegerBetweenWord
 		String s3=revEachWord(s1);
 		System.out.println("the given string is "+s1);
 		System.out.println("the given string is "+s3);
+		
+		sc.close();
 	}
 
 

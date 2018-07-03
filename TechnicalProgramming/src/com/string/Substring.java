@@ -28,6 +28,8 @@ public class Substring
 		
 		String res=sub(y,p,q);
 		System.out.println("subString("+p+","+q+") = " +res);	
+		
+		sc.close();
 
 	}
 

@@ -9,7 +9,7 @@ public class DeleteDuplicateElements
 	{
 		int size = ar.length;
 		System.out.println("entering method");
-		for (int i = 0; i < size-1; i++) 
+		for (int i = 0; i < size-1; i++) // size -1 is for no need to compare the last element
 		{
 			
 			for (int j = i+1; j <size; j++)

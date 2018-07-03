@@ -12,14 +12,14 @@ public class Word_length {
 		{
 			int count =0;
 			String res="";
-			while (i <ch.length && str.charAt(i)!=' ')
+			while (i<ch.length && str.charAt(i)!=' ')
 			{
 				count++;
 				res = res+ch[i];
 				i++;
 				
 			}
-			s2= res+""+count+" "+s2;
+			s2= res+" "+count+" "+s2;
 			//no need to take extra variable because we no interchanging the position of the word
 		}
 		return s2;
@@ -33,6 +33,8 @@ public class Word_length {
 		String s3=revEachWord(s1);
 		System.out.println("the given string is "+s1);
 		System.out.println("the string with thier length is "+s3);
+		
+		sc.close();
 	}
 
 }

@@ -6,7 +6,8 @@ import java.util.Scanner;
 public class Nth_Max_Num 
 {
 
-	public static int[] sort(int []ar)
+	
+	public static int [] sort(int []ar)
 	{
 		for (int i = 0; i < ar.length-1; i++)
 		{
@@ -21,9 +22,11 @@ public class Nth_Max_Num
 			}
 		}
 		return ar;
+
+
 	}
-	
-	public static int max(int []ar, int n)
+
+	public static int max(int []ar, int n)// n defined order of maximum
 	{
 		if(n<=0 && n>ar.length)
 		{
@@ -32,18 +35,18 @@ public class Nth_Max_Num
 		}
 		return ar[n-1];
 	}
-	
-	public static int min(int []ar, int n)
+
+	public static int min(int []ar, int n) // n defined order of minimum
 	{
 		if(n<=0 && n>ar.length)
 		{
 			System.out.println("invalid position");
 			return 0;
 		}
-		
+
 		return ar[ar.length-n];
 	}
-	
+
 	public static void main(String[] args)
 	{
 		Scanner sc = new Scanner(System.in);
@@ -54,22 +57,24 @@ public class Nth_Max_Num
 		{
 			System.out.println("Enter the value at "+i+" value");
 			ar[i]=sc.nextInt();
-			
-			
+
+
 		}
 		
-		int ar1 [] = sort(ar);
-		
-		System.out.println("Enter the number which is  maximum ");
+		 
+		int ar2[] = sort(ar);
+
+		System.out.println("Enter order of  maximum number in the given array like first maximum or second maximum and so on..  ");
 		int m = sc.nextInt();
-		int m1=max(ar1, m);
+		int m1=max(ar2, m);
 		System.out.println("the "+m+"th maximum is "+m1);
-		
-		System.out.println("Enter the number which is minimum  ");
+
+		System.out.println("Enter order of  minimum number in the given array like first minimum or second minimum and so on..  ");
 		int n = sc.nextInt();
-		int m2=min(ar1, n);
+		int m2=min(ar2, n);
 		System.out.println("the "+n+"th minimum is "+m2);
-		
+
+		sc.close();
 	}
 
 }

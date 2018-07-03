@@ -88,7 +88,7 @@ public class TransposeArray
 		
 		
 		
-		/*int transpose [][]=transpose(ar);
+		int transpose [][]=transpose(ar);
 		
 		System.out.println("Transpose matrix of given matrix ");
 		for (int i = 0; i < transpose.length; i++) 
@@ -99,11 +99,11 @@ public class TransposeArray
 			}
 			System.out.println();
 		}
-		*/
 		
 		
 		
-		/*// rotate 90 degree left
+		
+		// rotate 90 degree left means anti-clockwise
 		int nar [][]= transpose(ar);
 		int nar1 [][]= swaprows(nar);
 		System.out.println("Rotate 90 degree left of the array elements...");
@@ -116,7 +116,6 @@ public class TransposeArray
 			System.out.println();
 		}
 	
-		*/
 		
 		
 		
@@ -124,7 +123,8 @@ public class TransposeArray
 		
 		
 		
-		/*// rotate 90 degree right
+		
+		/*// rotate 90 degree right means clockwise
 				int nar2 [][]= transpose(ar);
 				int nar3 [][]= swapcol(nar2);
 				System.out.println("the array element after swapping");
@@ -139,7 +139,7 @@ public class TransposeArray
 				
 		*/
 		
-		
+		/*
 				// rotate 180 degree 
 				int nar4 [][]= swapcol(ar);
 				int nar5 [][]= swaprows(nar4);
@@ -152,7 +152,7 @@ public class TransposeArray
 						System.out.print(nar5[i][j]+" ");
 					}
 					System.out.println();
-				}
+				}*/
 		sc.close();
 		
 		

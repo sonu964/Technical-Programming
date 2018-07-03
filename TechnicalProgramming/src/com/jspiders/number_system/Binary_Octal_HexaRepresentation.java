@@ -1,6 +1,5 @@
 package com.jspiders.number_system;
 
-import java.util.Scanner;
 
 public class Binary_Octal_HexaRepresentation 
 {

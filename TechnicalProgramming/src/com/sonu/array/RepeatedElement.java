@@ -7,7 +7,7 @@ public class RepeatedElement {
 	public static void deleteElement(int ar[])
 	{
 		int size = ar.length;
-		System.out.println("entering method");
+		System.out.println("deleteElement method started..");
 		for (int i = 0; i < size-1; i++) 
 		{
 			//int count=1;
